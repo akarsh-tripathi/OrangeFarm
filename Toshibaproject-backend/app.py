@@ -8,7 +8,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Predefined file path
 csv_file_path = './Toshibaproject-backend/dataset.csv'
 
 def moving_average_downsample(data, window_size):
@@ -26,7 +25,6 @@ def moving_average_downsample(data, window_size):
 
     return downsampled_data
 
-# Example: Using a window size of 4 (four data points)
 window_size = 4
 for row in csv_file_path:
     row['Profit Percentage'] = float(row['Profit Percentage'])
@@ -34,7 +32,6 @@ for row in csv_file_path:
 downsampled_data = moving_average_downsample(csv_file_path, window_size)
 df_downsampled = pd.DataFrame(downsampled_data)
 
-# Save the downsampled data to a new CSV file
 df_downsampled.to_csv('./Toshibaproject-backend/downsampled_data.csv', index=False)
 
 downsampled_data ='./Toshibaproject-backend/downsampled_data.csv'
@@ -47,7 +44,6 @@ def upload():
 
         json_data = json.dumps(data, indent=2)
 
-        # You can save the JSON data to a file if needed
         with open('output.json', 'w') as json_file:
             json_file.write(json_data)
 
