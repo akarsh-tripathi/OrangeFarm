@@ -81,11 +81,13 @@ export default function Customers() {
                 alt=""
                 src="/icon-from-tablerio-19.svg"
               />
-              <input
-                className="m-0 h-4 w-4 relative overflow-hidden shrink-0"
-                type="checkbox"
+              <img
+                className="h-4 w-4 relative overflow-hidden shrink-0"
+                alt=""
+                src="/Icon=tabler-icon-pencil.svg"
               />
-              <div className="h-[25px] w-px relative box-border opacity-[0.2] border-r-[1px] border-solid border-dark-orange" />
+              
+              <div className="h-[25px] w-px relaive box-border opacity-[0.2] border-r-[1px] border-solid border-dark-orange" />
               <img
                 className="h-4 w-4 relative overflow-hidden shrink-0"
                 alt=""

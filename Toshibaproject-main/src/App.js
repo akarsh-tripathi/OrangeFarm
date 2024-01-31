@@ -16,7 +16,7 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "Home Page";
+        title = "OrangeFarm-Welcom";
         metaDescription = "Welcome to our website.";
         break;
       default:
