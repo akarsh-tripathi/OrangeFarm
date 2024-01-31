@@ -81,7 +81,7 @@ export default function NavBar() {
         </div>
       </div>
 
-      <div className="self-stretch h-[180px] flex flex-col items-center justify-end pt-4 px-2 pb-6 box-border gap-[12px]">
+      <div className="self-stretch h-full flex flex-col items-center justify-end pt-4 px-2 pb-6 box-border gap-[12px]">
         <div className="self-stretch h-10 flex flex-row items-center justify-start py-0 px-5 box-border gap-[12px]">
           <img
             className="h-8 w-8 relative object-cover"

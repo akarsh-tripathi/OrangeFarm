@@ -10,6 +10,11 @@
 > Here is the OrangeFarm, An app built with ReactJS to show an overview via a Dashboard containing cruicial informations.
 > The OrangeFarm delivers the functionality of seeing Revenue, Lost Deals, and Quaterly Goals. 
 > It also contains a separate section having Growth with data.
+
+# ScreenShots
+
+(./Screenshots/1.png)
+(./Screenshots/2.png)
  
 
 
